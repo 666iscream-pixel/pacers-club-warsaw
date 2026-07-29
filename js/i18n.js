@@ -19,7 +19,7 @@ en: {
   tick_3: 'Every Saturday · 09:00',
   tick_4: 'Free · No sign-up',
 
-  foot_tag: 'A free Saturday run club in Warsaw. Meet, run or walk, stay for coffee.',
+  foot_tag: 'Free to join. All levels welcome. Every Saturday.',
   foot_explore: 'Pages',
   foot_follow: 'Follow',
   foot_practical: 'Practical',
@@ -32,6 +32,7 @@ en: {
   /* ---- home ---- */
   h_kicker: 'Warsaw · Every Saturday · 09:00 · Free',
   h_title: 'All paces.<br>All people.<br><em>One community.</em>',
+  h_tagline: 'Lace up, show up, run. A pack for every pace — first-timers to marathoners — hitting Warsaw’s parks and streets together, every Saturday.',
   h_btn_next: 'Next run',
   h_btn_join: 'New here? Start here',
   h_btn_ig: 'Instagram',
@@ -41,6 +42,7 @@ en: {
   bib_month: 'August 2026',
   bib_map_cap: 'A recent 5.39 km loop around Pole Mokotowskie',
   bib_meet: 'Meet',
+  bib_meet_v: 'Jeff’s (Parking lot), Warsaw',
   bib_time: 'Time',
   bib_dist: 'Distance',
   bib_type: 'Type',
@@ -65,7 +67,7 @@ en: {
 
   /* where the club lives between Saturdays */
   so_no: 'Stay in touch',
-  so_h: 'Join us everywhere else',
+  so_h: 'Let’s keep in touch',
   so_p: 'Everything between Saturdays happens in these three places. All of them are open — no approval, no waiting list.',
   so_ig_p: 'Where the meeting point goes up every week, plus photos and video from the runs.',
   so_st_p: 'The club feed — every route, distance and pace the crew logs.',
@@ -192,7 +194,7 @@ pl: {
   tick_3: 'W każdą sobotę · 09:00',
   tick_4: 'Za darmo · Bez zapisów',
 
-  foot_tag: 'Darmowy sobotni klub biegowy w Warszawie. Spotykamy się, biegniemy albo idziemy, zostajemy na kawę.',
+  foot_tag: 'Wstęp wolny. Każdy poziom mile widziany. W każdą sobotę.',
   foot_explore: 'Strony',
   foot_follow: 'Obserwuj',
   foot_practical: 'Praktycznie',
@@ -206,6 +208,7 @@ pl: {
   h_kicker: 'Warszawa · W każdą sobotę · 09:00 · Za darmo',
   h_title: 'Każde tempo.<br>Wszyscy ludzie.<br><em>Jedna społeczność.</em>',
   h_stand: 'Spotykamy się w sobotę o dziewiątej, biegniemy gdzieś po Warszawie, a potem siadamy na kawę. Najwolniejszy bieg zapisany w klubie w tym miesiącu to 8:00 na kilometr. Najszybszy — 4:56. Oba liczyły się tak samo.',
+  h_tagline: 'Zawiąż sznurówki, przyjdź, biegnij. Ekipa dla każdego tempa — od debiutantów po maratończyków — razem po warszawskich parkach i ulicach, w każdą sobotę.',
   h_btn_next: 'Najbliższy bieg',
   h_btn_join: 'Pierwszy raz? Zacznij tutaj',
   h_btn_ig: 'Instagram',
@@ -215,6 +218,7 @@ pl: {
   bib_month: 'Sierpień 2026',
   bib_map_cap: 'Niedawna pętla 5,39 km wokół Pola Mokotowskiego',
   bib_meet: 'Zbiórka',
+  bib_meet_v: 'Jeff’s (parking), Warszawa',
   bib_time: 'Godzina',
   bib_dist: 'Dystans',
   bib_type: 'Rodzaj',
@@ -239,7 +243,7 @@ pl: {
 
   /* where the club lives between Saturdays */
   so_no: 'Bądźmy w kontakcie',
-  so_h: 'Dołącz do nas wszędzie indziej',
+  so_h: 'Bądźmy w kontakcie',
   so_p: 'Wszystko pomiędzy sobotami dzieje się w tych trzech miejscach. Wszystkie są otwarte — bez zatwierdzania i bez listy oczekujących.',
   so_ig_p: 'Tu co tydzień pojawia się miejsce zbiórki, a do tego zdjęcia i wideo z biegów.',
   so_st_p: 'Feed klubu — każda trasa, dystans i tempo, które ekipa zapisuje.',

@@ -13,8 +13,8 @@ const CLUB = {
   stravaFeed: 'https://www.strava.com/clubs/2102616/recent_activity',
   members: 27,
   followers: 260,
-  // Jeff's, Pole Mokotowskie — the regular meeting point
-  meetPoint: [52.2119, 20.9977]
+  // Jeff's, Żwirki i Wigury 32 — the regular meeting point (confirmed on Google Maps)
+  meetPoint: [52.2109634, 20.9891289]
 };
 
 /* Logged runs, 3 km and up. km / pace per km / elapsed time. */
