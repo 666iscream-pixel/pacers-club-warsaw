@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Activity — Pacers Club Warsaw</title>
+<meta name="description" content="Real runs logged by members of Pacers Club Warsaw: distances, paces and times taken from the club’s Strava feed.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="ticker"><div class="ticker-track"></div></div>
+
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="Pacers Club Warsaw">
+      <span><b>Pacers Club</b><small>Warsaw</small></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="schedule.html" data-i18n="nav_schedule">Schedule</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="activity.html" aria-current="page" data-i18n="nav_activity">Activity</a></li>
+        <li><a href="join.html" data-i18n="nav_join">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="pl" aria-pressed="false">PL</button>
+      </div>
+      <button class="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="kicker" data-i18n="ac_kicker">Recent activity</p>
+    <h1 data-i18n="ac_title">What the club actually ran</h1>
+    <p class="lead" data-i18n="ac_lead"></p>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="facts facts-3">
+      <div class="fact"><div class="v" data-stat="km">115.0</div><div class="k" data-i18n="ac_total">Km logged, these runs</div></div>
+      <div class="fact"><div class="v" data-stat="runs">13</div><div class="k" data-i18n="ac_runs">Runs listed</div></div>
+      <div class="fact"><div class="v sm" data-stat="pace">4:56–8:00</div><div class="k" data-i18n="ac_range">Pace range /km</div></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:26px">
+  <div class="wrap">
+    <div class="feed" data-feed></div>
+    <p class="note" data-i18n="ac_note"></p>
+    <div class="btns" style="margin-top:28px">
+      <a class="btn" href="https://www.strava.com/clubs/2102616/recent_activity" target="_blank" rel="noopener" data-i18n="ac_btn">Live feed on Strava</a>
+      <a class="btn ghost" href="join.html" data-i18n="h_btn_join">New here? Start here</a>
+    </div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <h2 data-i18n="cta_h">Saturday.<br>09:00.<br>Just turn up.</h2>
+        <p data-i18n="cta_p"></p>
+      </div>
+      <div class="btns">
+        <a class="btn" href="join.html" data-i18n="cta_btn_join">New here? Start here</a>
+        <a class="btn ghost" href="schedule.html" data-i18n="h_btn_next">Next run</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:16px">
+          <img src="assets/logo.jpg" alt="">
+          <span><b>Pacers Club</b><small>Warsaw</small></span>
+        </a>
+        <p data-i18n="foot_tag" style="max-width:34ch"></p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_explore">Pages</h4>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="schedule.html" data-i18n="nav_schedule">Schedule</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Gallery</a>
+        <a href="activity.html" data-i18n="nav_activity">Activity</a>
+        <a href="join.html" data-i18n="nav_join">FAQ</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_follow">Follow</h4>
+        <a data-icon="instagram" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener">Instagram</a>
+        <a data-icon="strava" href="https://www.strava.com/clubs/2102616" target="_blank" rel="noopener">Strava club</a>
+        <a data-icon="whatsapp" href="https://chat.whatsapp.com/F90RcARxVka1QFy6qhvAFN?mode=gi_t" target="_blank" rel="noopener">WhatsApp group</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_practical">Practical</h4>
+        <p data-i18n="foot_p1"></p>
+        <p data-i18n="foot_p2"></p>
+        <p data-i18n="foot_p3"></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Pacers Club Warsaw — <span data-i18n="foot_rights"></span></span>
+      <span data-i18n="foot_credit"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

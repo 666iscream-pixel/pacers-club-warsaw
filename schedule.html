@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule — Pacers Club Warsaw</title>
+<meta name="description" content="Every Saturday at 09:00 in Warsaw. The next confirmed run, the standing Saturday slot, and the Saturdays already run.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="ticker"><div class="ticker-track"></div></div>
+
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="Pacers Club Warsaw">
+      <span><b>Pacers Club</b><small>Warsaw</small></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="schedule.html" aria-current="page" data-i18n="nav_schedule">Schedule</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="activity.html" data-i18n="nav_activity">Activity</a></li>
+        <li><a href="join.html" data-i18n="nav_join">Join</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="pl" aria-pressed="false">PL</button>
+      </div>
+      <button class="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="kicker" data-i18n="sc_kicker">Schedule</p>
+    <h1 data-i18n="sc_title">Saturdays</h1>
+    <p class="lead" data-i18n="sc_lead"></p>
+  </div>
+</section>
+
+<!-- --------------------------------------------------------- the next one -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="no" data-i18n="sc_next_no">Confirmed</span>
+      <h2 data-i18n="sc_next_h">The next one</h2>
+      <span class="aside" data-i18n="sc_next_aside"></span>
+    </div>
+    <div class="events">
+      <div class="event next">
+        <div class="date">01<span data-i18n="sc_next_date">AUG · SAT</span></div>
+        <div>
+          <h3>09:00 · Jeff’s, Warsaw</h3>
+          <div class="meta">5.0 km · Run · Social · Trail</div>
+          <div class="tags">
+            <span>Run</span><span>Walk</span><span>Socialize</span><span>Connect</span>
+          </div>
+        </div>
+        <div class="btns">
+          <a class="btn" href="join.html#contact" data-i18n="cta_btn_place">Where we meet</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------------------------------------- the standing slot -->
+<section class="tight">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="no" data-i18n="sc_up_no">Standing slot</span>
+      <h2 data-i18n="sc_up_h">After that</h2>
+      <span class="aside" data-i18n="sc_up_aside"></span>
+    </div>
+    <div class="events" data-upcoming></div>
+    <p class="note" data-i18n="sc_note"></p>
+    <div class="btns" style="margin-top:28px">
+      <a class="btn" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener" data-i18n="sc_btn_ig">Announcements on Instagram</a>
+      <a class="btn ghost" href="https://www.strava.com/clubs/2102616" target="_blank" rel="noopener" data-i18n="sc_btn_strava">Events on Strava</a>
+    </div>
+  </div>
+</section>
+
+<!-- ---------------------------------------------------------------- archive -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="no" data-i18n="sc_past_no">Archive</span>
+      <h2 data-i18n="sc_past_h">Already run</h2>
+      <span class="aside" data-i18n="sc_past_aside"></span>
+    </div>
+    <div class="events" data-past></div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <h2 data-i18n="cta_h">Saturday.<br>09:00.<br>Just turn up.</h2>
+        <p data-i18n="cta_p"></p>
+      </div>
+      <div class="btns">
+        <a class="btn" href="join.html" data-i18n="cta_btn_join">New here? Start here</a>
+        <a class="btn ghost" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener" data-i18n="cta_btn_ig">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:16px">
+          <img src="assets/logo.jpg" alt="">
+          <span><b>Pacers Club</b><small>Warsaw</small></span>
+        </a>
+        <p data-i18n="foot_tag" style="max-width:34ch"></p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_explore">Pages</h4>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="schedule.html" data-i18n="nav_schedule">Schedule</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Gallery</a>
+        <a href="activity.html" data-i18n="nav_activity">Activity</a>
+        <a href="join.html" data-i18n="nav_join">Join</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_follow">Follow</h4>
+        <a data-icon="instagram" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener">Instagram</a>
+        <a data-icon="strava" href="https://www.strava.com/clubs/2102616" target="_blank" rel="noopener">Strava club</a>
+        <a data-icon="whatsapp" href="https://chat.whatsapp.com/F90RcARxVka1QFy6qhvAFN?mode=gi_t" target="_blank" rel="noopener">WhatsApp group</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_practical">Practical</h4>
+        <p data-i18n="foot_p1"></p>
+        <p data-i18n="foot_p2"></p>
+        <p data-i18n="foot_p3"></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Pacers Club Warsaw — <span data-i18n="foot_rights"></span></span>
+      <span data-i18n="foot_credit"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

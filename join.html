@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Join — Pacers Club Warsaw</title>
+<meta name="description" content="Everything a first-timer asks about Pacers Club Warsaw: pace, distance, cost, what to bring, and where we meet on Saturday.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+
+<div class="ticker"><div class="ticker-track"></div></div>
+
+<header class="site-header">
+  <div class="header-in">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="Pacers Club Warsaw">
+      <span><b>Pacers Club</b><small>Warsaw</small></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="schedule.html" data-i18n="nav_schedule">Schedule</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="activity.html" data-i18n="nav_activity">Activity</a></li>
+        <li><a href="join.html" aria-current="page" data-i18n="nav_join">Join</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <div class="lang">
+        <button data-lang="en" aria-pressed="true">EN</button>
+        <button data-lang="pl" aria-pressed="false">PL</button>
+      </div>
+      <button class="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="kicker" data-i18n="jn_kicker">FAQ</p>
+    <h1 data-i18n="jn_title">New here? Start here</h1>
+    <p class="lead" data-i18n="jn_lead"></p>
+  </div>
+</section>
+
+<!-- ------------------------------------------------------------------- faq -->
+<section>
+  <div class="wrap">
+    <div class="faq">
+      <div class="faq-item"><h3 data-i18n="jn_q1"></h3><p data-i18n="jn_a1"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q2"></h3><p data-i18n="jn_a2"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q4"></h3><p data-i18n="jn_a4"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q5"></h3><p data-i18n="jn_a5"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q6"></h3><p data-i18n="jn_a6"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q7"></h3><p data-i18n="jn_a7"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q8"></h3><p data-i18n="jn_a8"></p></div>
+      <div class="faq-item"><h3 data-i18n="jn_q9"></h3><p data-i18n="jn_a9"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- --------------------------------------------------------------- contact -->
+<section class="ink" id="contact">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="no" data-i18n="ct_no">Find us</span>
+      <h2 data-i18n="ct_h">Come say hi before the next run</h2>
+    </div>
+    <div class="contact-grid">
+      <div id="map"></div>
+      <div>
+        <div class="contact-block">
+          <h3 data-i18n="ct_where">Meeting point</h3>
+          <div class="big">Jeff’s · Pole Mokotowskie</div>
+          <p data-i18n="ct_where_p"></p>
+        </div>
+        <div class="contact-block">
+          <h3 data-i18n="ct_when">When</h3>
+          <div class="big">Saturday 09:00</div>
+          <p data-i18n="ct_when_p"></p>
+        </div>
+        <div class="contact-block">
+          <h3 data-i18n="ct_talk">Questions</h3>
+          <p data-i18n="ct_talk_p"></p>
+        </div>
+        <div class="btns">
+          <a class="btn" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn ghost" href="https://chat.whatsapp.com/F90RcARxVka1QFy6qhvAFN?mode=gi_t" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=52.2119,20.9977" target="_blank" rel="noopener">Google Maps</a>
+        </div>
+      </div>
+    </div>
+    <p class="note" data-i18n="ro_note"></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <blockquote class="quote">
+      <span data-i18n="ab_quote">“All paces. All people. One community.”</span>
+    </blockquote>
+    <div class="btns" style="margin-top:30px">
+      <a class="btn" href="schedule.html" data-i18n="h_btn_next">Next run</a>
+      <a class="btn ghost" href="about.html" data-i18n="nav_about">About</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html" style="margin-bottom:16px">
+          <img src="assets/logo.jpg" alt="">
+          <span><b>Pacers Club</b><small>Warsaw</small></span>
+        </a>
+        <p data-i18n="foot_tag" style="max-width:34ch"></p>
+      </div>
+      <div>
+        <h4 data-i18n="foot_explore">Pages</h4>
+        <a href="about.html" data-i18n="nav_about">About</a>
+        <a href="schedule.html" data-i18n="nav_schedule">Schedule</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Gallery</a>
+        <a href="activity.html" data-i18n="nav_activity">Activity</a>
+        <a href="join.html" data-i18n="nav_join">Join</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_follow">Follow</h4>
+        <a data-icon="instagram" href="https://www.instagram.com/pacersclub_warsaw/" target="_blank" rel="noopener">Instagram</a>
+        <a data-icon="strava" href="https://www.strava.com/clubs/2102616" target="_blank" rel="noopener">Strava club</a>
+        <a data-icon="whatsapp" href="https://chat.whatsapp.com/F90RcARxVka1QFy6qhvAFN?mode=gi_t" target="_blank" rel="noopener">WhatsApp group</a>
+      </div>
+      <div>
+        <h4 data-i18n="foot_practical">Practical</h4>
+        <p data-i18n="foot_p1"></p>
+        <p data-i18n="foot_p2"></p>
+        <p data-i18n="foot_p3"></p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Pacers Club Warsaw — <span data-i18n="foot_rights"></span></span>
+      <span data-i18n="foot_credit"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
